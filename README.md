@@ -4,22 +4,22 @@ This repo is about Kafka installation
 [Kafka download Link](https://kafka.apache.org/quickstart)
 
 ## Steps:
-1. After downloading,extract it and Put the .tgz file in C:\.
-1. Un-tar it (using Bash) and change into the directory
+- After downloading,extract it and Put the .tgz file in C:\.
+- Un-tar it (using Bash) and change into the directory
 ```
 tar -xzf <filename>
 cd <folder>
 ```
-1. Set up the environment variables
+- Set up the environment variables
 ``` 
 KAFKA_HOME =  C:\kafka-version folder
 ```
-1. Set up the path 
+- Set up the path 
 ```
 %KAFKA_HOME%\bin
 %KAFKA_HOME%\bin\windows
 ```
-1. Use a different PowerShell as Administrator window for each process.These assume execution of commands from your %KAFKA_HOME% folder (e.g., C:\kafka-version) adjust them as needed.
+- Use a different PowerShell as Administrator window for each process.These assume execution of commands from your %KAFKA_HOME% folder (e.g., C:\kafka-version) adjust them as needed.
 
 Window 1 - Run Zookeeper Service  (keep window open)
 ```
