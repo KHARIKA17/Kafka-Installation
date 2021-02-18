@@ -1,5 +1,5 @@
 # Kafka-Installation
-This repo is about Kafka installation
+This repo is about Kafka installation.Here are the steps required
 
 [Kafka download Link](https://kafka.apache.org/quickstart)
 
